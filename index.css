@@ -17,6 +17,12 @@ body {
   margin: 80px;  
   border-radius: 30px;
   background: white;
+  transition: .5s;
+}
+
+.container:hover {
+  transform: scale(1.1);
+  box-shadow: 21px 21px 5px rgba(0, 0, 0, .1);
 }
 
 .top-container {
